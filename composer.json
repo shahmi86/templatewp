@@ -1,0 +1,17 @@
+{
+    "name": "mshahmi/wordpress-composer-template",
+    "description": "Using Composer to manage complete WordPress Project",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+            "wpackagist-plugin/tiny-compress-images": "*",
+            "wpackagist-plugin/cache-enabler": "*",
+            "wpackagist-plugin/w3-total-cache": "*",
+            "wpackagist-plugin/disqus-conditional-load": "*"
+    }
+}
